@@ -5,7 +5,7 @@ Eleventy From Scratch, by Piccalilli'
 layout: 'layouts/home.html'
 intro:
   eyebrow: 'Enregistrement, mixage & mastering'
-  main: 'Let’s record'
+  main: 'et’s record'
   summary: 'Let us help you create the perfect campaign with our multi-faceted team of talented creatives.'
   buttonText: 'See our work'
   buttonUrl: '/work'
