@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "text": "Accueil",
+      "url": "/"
+    },
+    {
+      "text": "À propos",
+      "url": "/about-us/"
+    },
+    {
+      "text": "Studio",
+      "url": "/work/"
+    },
+    {
+      "text": "Contact",
+      "url": "/contact/"
+    }
+  ]
+}

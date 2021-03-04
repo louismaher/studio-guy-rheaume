@@ -1,0 +1,20 @@
+// First up: config and functions
+@import 'config';
+
+// Set gorko to output no CSS for this file
+$outputTokenCSS: false;
+
+// Next: pull in gorko for design tokens
+@import '../../node_modules/gorko/gorko.scss';
+
+// Pull in blocks
+@import 'blocks/intro';
+@import 'blocks/featured-work';
+@import 'blocks/studio-feed';
+
+body{
+    background-image: url(https://res.cloudinary.com/wikilouis/image/upload/e_sharpen/f_auto/v1614277859/Studio%20Guy%20Rh%C3%A9aume/sgr-accueil.jpg);
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-position: top left;
+     }
