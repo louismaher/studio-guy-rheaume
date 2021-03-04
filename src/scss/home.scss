@@ -13,8 +13,8 @@ $outputTokenCSS: false;
 @import 'blocks/studio-feed';
 
 body{
-    background-image: url(https://res.cloudinary.com/wikilouis/image/upload/e_sharpen/f_auto/v1614277859/Studio%20Guy%20Rh%C3%A9aume/sgr-accueil.jpg);
-    background-repeat: no-repeat;
-    background-size:100% auto;
-    background-position: top left;
-     }
+    background-image: url(https://res.cloudinary.com/wikilouis/image/upload/v1614885308/studio-guy-rheaume/intro.png);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
