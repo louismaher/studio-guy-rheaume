@@ -10,7 +10,7 @@ module.exports = async () => {
   try {
     // Grabs either the fresh remote data or cached data (will always be fresh live)
     const {items} = await Cache(
-      'https://res.cloudinary.com/demo/image/list/logo.json',
+      'https://res.cloudinary.com/louismaher/image/list/studio.json',
       {
         duration: '1d', // 1 day
         type: 'json'
