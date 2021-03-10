@@ -5,12 +5,10 @@ Eleventy From Scratch, by Piccalilli'
 layout: 'layouts/home.html'
 intro:
   eyebrow: 'Enregistrement, mixage & mastering'
-  main: 'Pour vous'
+  main: 'Studio Guy Rhéaume'
   summary: 'Let us help you create the perfect campaign with our multi-faceted team of talented creatives.'
   buttonText: 'See our work'
   buttonUrl: '/work'
-  image: '/images/bg/intro.png'
-  imageAlt: 'Buttered toasted white bread'
 primaryCTA:
   title: 'This is an agency that doesn’t actually exist'
   summary:
@@ -24,5 +22,5 @@ featuredWork:
   title: 'Selected work'
   summary: 'Some stuff that should give you an idea of what we’re all about.'
 studioFeed:
-  title: 'From inside the studio'
+  title: 'Le studio en images'
 ---
