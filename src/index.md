@@ -10,7 +10,7 @@ intro:
   buttonText: 'See our work'
   buttonUrl: '/work'
 primaryCTA:
-  title: 'This is an agency that doesn’t actually exist'
+  title: 'L´expérience à votre service'
   summary:
     'This is the project site you build when you take the “Learn
     Eleventy From Scratch” course so it is all made up as a pretend
@@ -19,7 +19,7 @@ primaryCTA:
   buttonText: 'Buy a copy'
   buttonUrl: 'https://piccalil.li/course/learn-eleventy-from-scratch/'
 featuredWork:
-  title: 'Selected work'
+  title: 'Nos solutions'
   summary: 'Some stuff that should give you an idea of what we’re all about.'
 studioFeed:
   title: 'Le studio en images'
