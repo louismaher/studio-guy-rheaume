@@ -1,10 +1,9 @@
 ---
 title: 'Studio Guy Rhéaume'
-metaDesc: 'A made up agency site that you build if you take Learn
-Eleventy From Scratch, by Piccalilli'
+metaDesc: 'Studio d’enregistrement professionnel en Montérégie (Rive-Sud de Montréal)'
 layout: 'layouts/home.html'
 intro:
-  eyebrow: 'Enregistrement, mixage & mastering'
+  eyebrow: 'Avant tout... à votre écoute!'
   main: 'Studio Guy Rhéaume'
   summary: 'Let us help you create the perfect campaign with our multi-faceted team of talented creatives.'
   buttonText: 'See our work'
