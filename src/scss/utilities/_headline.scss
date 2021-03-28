@@ -13,7 +13,7 @@ $headline-highlights: ('dark', 'primary', 'secondary', 'quaternary', 'quinary');
   }
 
   &::after {
-    content: '.';
+    content: '!';
   }
 
   // For each color, create an exception
