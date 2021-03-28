@@ -6,7 +6,7 @@ intro:
   eyebrow: 'Avant tout... à votre écoute!'
   main: 'Studio Guy Rhéaume'
   summary: 'Let us help you create the perfect campaign with our multi-faceted team of talented creatives.'
-  buttonText: 'See our work'
+  buttonText: 'Voir l''équipement'
   buttonUrl: '/work'
 primaryCTA:
   title: 'Bienvenue!'
@@ -16,7 +16,7 @@ primaryCTA:
   buttonUrl: 'https://piccalil.li/course/learn-eleventy-from-scratch/'
 featuredWork:
   title: 'Nos solutions'
-  summary: 'Some stuff that should give you an idea of what we’re all about.'
+  summary: 'Enregistrement numérique, analogique, mastering, post-synchro? No problemo :-)'
 studioFeed:
-  title: 'Le studio en images'
+  title: 'Coup d''oeil'
 ---

@@ -5,12 +5,12 @@
       "url": "/"
     },
     {
-      "text": "À propos",
-      "url": "/about-us/"
-    },
-    {
       "text": "Studio",
       "url": "/work/"
+    },
+    {
+      "text": "À propos",
+      "url": "/about-us/"
     },
     {
       "text": "Contact",

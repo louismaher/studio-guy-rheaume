@@ -1,14 +1,14 @@
-<article class="[ featured-work ] [ dot-shadow panel ] [ bg-light-glare ]">
+<article class="[ featured-work ] [ dot-shadow panel ] [ bg-tertiary ]">
   <div class="[ wrapper ] [ flow ]">
     <div class="[ featured-work__inner ] [ flow ]">
       <div class="[ featured-work__intro ] [ flow flow-space-300 ]">
         <h2
-          class="[ featured-work__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
+          class="[ featured-work__heading ] [ headline ] [ color-primary lg:measure-micro ]"
           data-highlight="dark"
         >
           {{ featuredWork.title }}
         </h2>
-        <p class="[ featured-work__summary ] [ measure-compact ] [ color-dark ]">
+        <p class="[ featured-work__summary ] [ measure-compact ] [ color-light ]">
           {{ featuredWork.summary }}
         </p>
       </div>
@@ -17,10 +17,10 @@
         href="{{ item.url }}"
         aria-label="See {{ item.data.title }}"
         class="[ featured-work__item ] [ frame ]"
-        data-frame="quaternary"
+        data-frame="secondary"
       >
         <img
-          src="{{ item.data.hero.image }}"
+          src="https://res.cloudinary.com/wikilouis/image/upload/v1615213631/studio-guy-rheaume/studiogr6f.jpg"
           alt="{{ item.data.hero.imageAlt }}"
           loading="lazy"
           class="radius"
@@ -29,7 +29,7 @@
       {% endfor %}
     </div>
     <div class="[ featured-work__action ] [ flow-space-700 ]">
-      <a href="/work/" class="button">See more work</a>
+      <a href="/work/" class="button">Yest</a>
     </div>
   </div>
 </article>

@@ -10,8 +10,8 @@
   }
 
   &__header {
-    padding: get-size('300') get-size('500');
-   // background: rgba(get-color('tertiary'), 0.95);
+    padding: get-size('300');
+   //*background: rgba(get-color('tertiary'), 0.95);
     z-index: 1;
     grid-row: 2;
     margin: 0 get-size('500'); // Adds a horizontal gutter;
@@ -24,22 +24,10 @@
     em {
       font-style: normal;
       display: block;
-
+      
       // The weight change creates a weird indent, so this
       // optical adjustment fixes it
-      transform: translateX(-3px);
-    }
-  }
-
-  &__media {
-    grid-row: 1/4;
-    position: relative;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border:10px solid get-color('light');;
+      transform: translateX(-6px);
     }
   }
 
@@ -48,6 +36,7 @@
 
     p {
       max-width: 30ch;
+      padding: get-size('800') 0 0;
     }
   }
 
@@ -65,11 +54,6 @@
       align-self: end;
     }
 
-    &__media {
-      grid-column: 3/2;
-      grid-row: 1/5;
-    }
-
     &__content {
       grid-row: 3/4;
       grid-column: 1;
@@ -78,11 +62,8 @@
 
   // Flip the ratio for larger breakpoints
   @include media-query('lg') {
-    grid-template-columns: 1fr minmax(44rem, 1fr);
+  grid-template-columns: 1fr minmax(44rem, 1fr);
 
-    // Because it's so large, it make sense to limit the image height too
-    &__media {
-      height: 28rem;
-    }
+    
   }
 }
