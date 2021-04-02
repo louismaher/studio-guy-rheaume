@@ -11,6 +11,7 @@ $outputTokenCSS: false;
 @import 'blocks/intro';
 @import 'blocks/featured-work';
 @import 'blocks/studio-feed';
+@import 'utilities/videoWrapper';
 
 body{
   background-image: url(https://res.cloudinary.com/wikilouis/image/upload/v1614885308/studio-guy-rheaume/intro.png);

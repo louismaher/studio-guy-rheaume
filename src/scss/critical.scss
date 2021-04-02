@@ -12,7 +12,7 @@
 }
 
 body {
-  background: get-color('light');
+  background: get-color('secondary');
   color: get-color('light');
   line-height: 1.5;
   font-size: get-size('500');
@@ -66,7 +66,7 @@ h4 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: get-color('secondary');
+  background-color: get-color('quaternary');
   border-radius: 0.25rem;
 }
 
@@ -95,3 +95,4 @@ h4 {
 @import 'utilities/site-wrap';
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
+@import 'utilities/videoWrapper';

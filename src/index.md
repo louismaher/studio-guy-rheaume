@@ -9,7 +9,7 @@ intro:
   tel: '450 449-6052'
   courrielText: 'Écrivez-nous'
   courrielUrl: 'mailto:info@studioguyrheaume.com'
-  buttonText: 'Voir l''équipement'
+  buttonText: 'Contactez-nous'
   buttonUrl: '/work'
 primaryCTA:
   title: 'Bienvenue'
@@ -18,7 +18,7 @@ primaryCTA:
   buttonText: 'Voir mes productions'
   buttonUrl: 'https://piccalil.li/course/learn-eleventy-from-scratch/'
 featuredWork:
-  title: 'Nos solutions'
+  title: 'Le studio'
   summary: 'Enregistrement numérique, analogique, mastering, post-synchro? No problemo :-)'
 studioFeed:
   title: 'Coup d''👁️'
