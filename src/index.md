@@ -21,5 +21,5 @@ featuredWork:
   title: 'Le studio'
   summary: 'Enregistrement numérique, analogique, mastering, post-synchro? No problemo :-)'
 studioFeed:
-  title: 'Coup d''👁️'
+  title: 'Atmosphère conviviale'
 ---
