@@ -3,12 +3,12 @@
     display: flex;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-
+    
     > * {
       width: 16rem;
       height: 13rem;
       flex-shrink: 0;
-      padding: 0 0 get-size('400') 0;
+      padding: get-size('400') 0;
 
       img {
         width: 100%;
@@ -19,6 +19,7 @@
 
     > * + * {
       margin-inline-start: get-size('500');
+      
     }
   }
 

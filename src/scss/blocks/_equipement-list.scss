@@ -1,0 +1,24 @@
+.equipement-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 0.75rem;
+    color: get-color('light');
+    text-transform: uppercase;
+    font-weight:900;
+
+    &[class] {
+      margin-inline-start: -#{get-size('400')};
+      padding: get-size('500') 0;
+      
+    }
+  
+    > * {
+      padding: 4px;
+      margin: 0 get-size('300');
+      border: 0px dashed get-color('light');
+     
+      border-radius: 0.25rem;
+    }
+  }
+  
