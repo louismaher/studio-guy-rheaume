@@ -11,7 +11,7 @@
     &__inner {
       display: grid;
       grid-gap: get-size('700') get-size('500');
-      grid-template-columns: repeat(12, 1fr);
+      grid-template-columns: repeat(1fr, 1fr);
 
       @supports (display: grid) {
         > * {
@@ -29,6 +29,7 @@
 
       // Pull the content in from the right, by reversing columns
       grid-column: 12/5;
+      padding: get-size('400');
     }
 
     &__action {
@@ -39,6 +40,7 @@
 
   @include media-query('lg') {
     &__inner {
+      grid-template-columns: 200px 200px 200px;
       grid-gap: get-size('500');
     }
 

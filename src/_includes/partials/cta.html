@@ -4,14 +4,46 @@
   {% set ctaPrefix = ctaContent %}
 {% endif %}
 
-<article id="contact" class="[ cta ] [ panel ] [ bg-primary color-light ]">
+<article id="contact" class="[ cta ] [ panel ]">
   <div class="wrapper">
     <div class="[ flow ]">
-      <h2 class="[ cta__heading ] [ headline ]" data-highlight="quaternary">{{ ctaPrefix.title }}</h2>
-      <p class="[ cta__summary ] [ measure-short ] [ text-shadow ]">{{ ctaPrefix.summary }}</p>
+      <h2 class="[ cta__heading ] [ headline ] [ text-shadow ]">{{ ctaPrefix.title }}</h2>
+      <p class="[ cta__summary ] [ measure-long ] [ bg-secondary-shade ] [ radius ] [  text-400 md:text-400 ]">{{ ctaPrefix.summary }}</p>
       <div class="cta__action">
-        <a class="button" data-variant="ghost" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
+        <a class="button" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
       </div>
+      <br>
+      <br>
+      <!--<ul class="auto-grid">
+   
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/300.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li><li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li><li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li>
+  
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li><li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li>
+  
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li><li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/001.jpg" alt=""></li>
+        <li><img class="radius" src="https://res.cloudinary.com/wikilouis/image/upload/c_scale,f_auto,h_77,w_77/e_sharpen/r_max/studio-guy-rheaume/002.jpg" alt=""></li>
+  
+  
+      </ul>-->
+      
+      
     </div>
+    
   </div>
 </article>
