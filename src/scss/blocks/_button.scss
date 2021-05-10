@@ -4,7 +4,7 @@
 
   display: inline-block;
   padding: 0.5rem 2rem;
-  background: get-color('quaternary');
+  background: get-color('quinary');
   color: get-color('light');
   border: 2px solid;
   text-transform: uppercase;
@@ -16,7 +16,7 @@
 
   // Make sure hover state trumps all variants with a good ol’ important
   &:hover {
-    background: get-color('quaternary') !important;
+    background: get-color('quinary') !important;
     color: get-color('light') !important;
   }
 
