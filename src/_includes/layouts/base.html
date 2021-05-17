@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     {% include "partials/meta-info.html" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
 
     <style>{% include "css/critical.css" %}</style>
 
@@ -42,5 +43,27 @@
         </div>
       </footer>
     </div>
+    <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+    
+<script>
+ var controls = ["play", "progress", "duration", "mute", "volume"];
+
+const player = Plyr.setup(".js-player", { controls });
+
+// Expose
+window.player = player;
+
+    for (var i in player) {
+     player[i].on('play', function (instance) {
+       var source = instance.detail.plyr.source;
+       for (var x in player) {
+         if (player[x].source != source) {
+          player[x].pause();
+         }
+       }
+     });
+    }
+</script>
+    
   </body>
 </html>

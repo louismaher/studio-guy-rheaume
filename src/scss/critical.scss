@@ -65,11 +65,27 @@ h4 {
   border-radius: 0.25rem;
 }
 
-::-webkit-scrollbar-thumb {
+.plyr--audio {
+  --plyr-audio-controls-background:transparent;
+}
+.plyr button {
+  font: inherit;
+  line-height: inherit;
+  width: auto;
+  color: get-color('light');
   background-color: get-color('quaternary');
-  border-radius: 0.25rem;
 }
 
+.plyr__time{
+  color:get-color('light');
+}
+.plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control{
+  background: get-color('quaternary');
+ 
+}
+.plyr--full-ui input[type=range] {
+  color: get-color('light');
+}
 // Import blocks
 @import 'blocks/button';
 @import 'blocks/cta';
