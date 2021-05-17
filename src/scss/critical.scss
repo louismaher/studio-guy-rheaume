@@ -84,7 +84,7 @@ h4 {
  
 }
 .plyr--full-ui input[type=range] {
-  color: get-color('light');
+  color: get-color('quaternary');
 }
 // Import blocks
 @import 'blocks/button';
@@ -114,3 +114,4 @@ h4 {
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
 @import 'utilities/text-shadow';
+@import 'utilities/extraits-chansons';

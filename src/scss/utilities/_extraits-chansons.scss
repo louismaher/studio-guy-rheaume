@@ -1,0 +1,21 @@
+.extraits-chansons {
+    font-size: 0.75rem;
+    color: get-color('light');
+    text-transform: uppercase;
+    font-weight:900;
+    font-family: "Red Hat Display","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    
+    &[class] {
+        margin-inline-start: -#{get-size('400')};
+        padding: get-size('900') ('900');
+        
+      }
+    
+      > * {
+        padding: 8px 0 0 8px;
+        margin: 0 0 get-size('300') get-size('300');
+        border: 1px dashed get-color('quaternary');
+        border-radius: 0.25rem;
+      }
+      
+    }
