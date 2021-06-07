@@ -62,8 +62,8 @@ h4 {
   background-color: get-color('quaternary');
 }
 ::-webkit-scrollbar-track {
-  background-color: transparent;
-  border: 0px solid get-color('light');
+  background-color: get-color('primary');;
+  // border: 0px solid get-color('light');
   border-radius: 0.25rem;
 }
 
