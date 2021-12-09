@@ -7,6 +7,11 @@
 */
 .auto-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 20rem), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 15rem), 1fr));
+  grid-gap: var(--auto-grid-gap, get-size('300'));
+}
+.auto-grid-pochettes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 4rem), 1fr));
   grid-gap: var(--auto-grid-gap, get-size('300'));
 }

@@ -27,6 +27,8 @@
         <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'" />
       {% endfor %}
     {% endif %}
+    <link rel="preconnect" href="https://https://fonts.google.com/">
+    <link rel="preconnect" href="https://cloudinary.com/">
   </head>
   <body>
     <div class="site-wrap">
@@ -63,6 +65,13 @@ window.player = player;
        }
      });
     }
+</script>
+<script src="https://unpkg.com/cloudinary-core@latest/cloudinary-core-shrinkwrap.js">
+</script>
+<script>
+    var cl = cloudinary.Cloudinary.new({cloud_name: "demo"}); 
+    // replace 'demo' with your cloud name in the line above 
+    cl.responsive();
 </script>
   </body>
 </html>

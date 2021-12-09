@@ -3,7 +3,7 @@ title: 'Studio Guy Rhéaume'
 metaDesc: 'Studio d’enregistrement professionnel en Montérégie (Rive-Sud de Montréal)'
 layout: 'layouts/home.html'
 intro:
-  eyebrow: 'Avant tout... à votre écoute!'
+  eyebrow: 'Avant tout à votre écoute!'
   main: 'Studio Guy Rhéaume'
   summary: 'Studio d''enregistrement professionnel situé en Montérégie (Rive-Sud de Montréal)'
   tel: '450 449-6052'
