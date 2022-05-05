@@ -9,6 +9,7 @@
     {% include "partials/meta-info.html" %}
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.7/plyr.min.css" media="print" onload="this.media='all'" />
+    <link rel="stylesheet" href="https://unpkg.com/photoswipe@5.2.2/dist/photoswipe.css" media="print" onload="this.media='all'" />
 
     <style>{% include "css/critical.css" %}</style>
 
@@ -72,6 +73,17 @@ window.player = player;
     var cl = cloudinary.Cloudinary.new({cloud_name: "demo"}); 
     // replace 'demo' with your cloud name in the line above 
     cl.responsive();
+</script>
+<script type="module">
+  import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
+
+const lightbox = new PhotoSwipeLightbox({
+  gallery: '#my-gallery',
+  children: 'a',
+  pswpModule: () => import('https://unpkg.com/photoswipe'),
+});
+
+lightbox.init();
 </script>
   </body>
 </html>
