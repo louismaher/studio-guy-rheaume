@@ -16,7 +16,7 @@ primaryCTA:
   summary:
     'Rhéaume oeuvre depuis plus de 35 ans dans le domaine de la production de disques. Il est à l’origine de plusieurs enregistrements à succès. Il occupe la majeure partie de son temps à travailler pour le Studio Guy Rhéaume à titre de directeur musical, conseiller à la production, responsable des arrangements sonores et ingénieur.'
   buttonText: 'Écrivez-nous'
-  buttonUrl: '#'
+  buttonUrl: 'mailto:info@studioguyrheaume.com'
 featuredWork:
   title: 'Le studio'
   summary: 'Enregistrement numérique, analogique, mastering, post-synchro? No problemo :-)'

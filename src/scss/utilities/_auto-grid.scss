@@ -12,7 +12,7 @@
 }
 .auto-grid-pochettes {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 4rem), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 14rem), 1fr));
   grid-gap: var(--auto-grid-gap, get-size('300'));
 }
 
@@ -20,6 +20,7 @@
 .auto-grid-pochettes img {
   -webkit-transition: -webkit-transform 0.1s ease-in-out;
           transition: transform 0.1s ease-in-out;
+          margin:0 auto;
 }
 
 .auto-grid-pochettes img:hover {
