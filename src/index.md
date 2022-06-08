@@ -8,14 +8,13 @@ intro:
   summary: 'Studio d''enregistrement professionnel situé en Montérégie (Rive-Sud de Montréal)'
   tel: '450 449-6052'
   courrielText: 'Écrivez-nous'
-  courrielUrl: ''
+  courrielUrl: 'mailto:info@studioguyrheaume.com'
   buttonText: 'Contactez-nous'
   buttonUrl: '/#contact'
 primaryCTA:
   title: 'Bien content'
-
   summary:
- courrielUrl: ''
+ courrielUrl: 'mailto:info@studioguyrheaume.com'
   buttonText: 'Contactez-nous'
   
 featuredWork:
