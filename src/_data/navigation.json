@@ -2,11 +2,11 @@
   "items": [
     {
       "text": "Accueil",
-      "url": "/"
+      "url": "https://studioguyrheaume.com"
     },
     {
       "text": "Studio",
-      "url": "/#studio"
+      "url": "#studio"
     },
     {
       "text": "Contact",

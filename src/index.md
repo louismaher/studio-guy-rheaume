@@ -12,7 +12,8 @@ intro:
   buttonText: 'Contactez-nous'
   buttonUrl: '/#contact'
 primaryCTA:
-  title: 'Bien content'
+  title: 'info@studioguyrheame.com'
+  tel: '450 449-6052'
   summary:
   buttonText: 'Contactez-nous'
   
