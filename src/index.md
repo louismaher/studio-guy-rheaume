@@ -14,7 +14,6 @@ intro:
 primaryCTA:
   title: 'Bien content'
   summary:
- courrielUrl: 'mailto:info@studioguyrheaume.com'
   buttonText: 'Contactez-nous'
   
 featuredWork:
