@@ -13,8 +13,10 @@ intro:
   buttonUrl: '/#contact'
 primaryCTA:
   title: 'Vous avez un projet en tête et pensez que nous pouvons vous être utile ?'
-  summary: 'N''hésitez pas à nous contacter!
-               Studio Guy Rhéaume&nbsp;&nbsp;450 449-6052&nbsp;&nbsp;
+  summary: 'N''hésitez pas à nous contacter. 
+
+            StudioGuyRhéaume  
+            450 449-6052&nbsp;&nbsp;
             <a href="mailto:info@studioguyrheaume.com" target="_blank">info@studioguyrheaume.com</a>'
 
 featuredWork:
