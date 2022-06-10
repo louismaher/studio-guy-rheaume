@@ -1,16 +1,8 @@
 {
   "items": [
     {
-      "text": "Accueil",
+      "text": "⬅️ Retour à StudioGuyRheaume.com",
       "url": "https://studioguyrheaume.com"
-    },
-    {
-      "text": "Studio",
-      "url": "#studio"
-    },
-    {
-      "text": "Contact",
-      "url": "/#contact"
     }
   ]
 }

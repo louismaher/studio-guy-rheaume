@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "text": "Accueil",
+      "url": "https://studioguyrheaume.com"
+    },
+    {
+      "text": "Studio",
+      "url": "#studio"
+    },
+    {
+      "text": "Contact",
+      "url": "/#contact"
+    }
+  ]
+}
