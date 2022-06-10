@@ -8,7 +8,7 @@ intro:
   summary: 'Studio d''enregistrement professionnel situé en Montérégie (Rive-Sud de Montréal)'
   tel: '450 449-6052'
   buttonText: 'Contactez-nous'
-  buttonUrl: '/#contact'
+  buttonUrl: '#contact'
 primaryCTA:
   title: 'Vous avez un projet en tête ?'   
   summary: 'Si vous croyez que nous pouvons vous aider, n''hésitez pas à nous contacter.'
